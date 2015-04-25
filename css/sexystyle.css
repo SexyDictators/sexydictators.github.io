@@ -1,0 +1,181 @@
+body {
+	font-family: Arial, Geneva, san-serif;
+	font-size: 1em;
+	color: #000000;
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	
+	height: 100%;
+	width: 100%;
+	
+	text-align: center; /* Needed to centre in IE. */
+}
+
+/* ---- STRUCTURE ---- */
+
+#container {
+	width: 905px;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+}
+
+#header {
+	width: 905px;
+	height: 159px;
+	margin: 5px 0px 40px 0px;
+}
+
+#pagecontent {
+	width: 800px;
+	margin: 0px 0px 0px 105px;
+	padding: 10px 40px 10px 20px;
+}
+
+#footer {
+	width: 905px;
+	margin-top: 50px;
+	clear: both;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+/* ---- MENU ---- */
+
+#menu {
+	float: left;
+}
+
+.menulink {
+	width: 105px;
+	height: 55px;
+}
+
+#home_link {
+	background-image: url("../img/home_pink.png");
+	background-repeat: no-repeat;
+}
+
+#home_link:hover {
+	background-image: url("../img/home_black.png");
+	background-repeat: no-repeat;
+}
+
+#profiles_link {
+	background-image: url("../img/profiles_pink.png");
+	background-repeat: no-repeat;
+}
+
+#profiles_link:hover {
+	background-image: url("../img/profiles_black.png");
+	background-repeat: no-repeat;
+}
+
+#stories_link {
+	background-image: url("../img/stories_pink.png");
+	background-repeat: no-repeat;
+}
+
+#stories_link:hover {
+	background-image: url("../img/stories_black.png");
+	background-repeat: no-repeat;
+}
+
+#contact_link {
+	background-image: url("../img/contact_pink.png");
+	background-repeat: no-repeat;
+}
+
+#contact_link:hover {
+	background-image: url("../img/contact_black.png");
+	background-repeat: no-repeat;
+}
+
+
+/* ---- TEXT ---- */
+
+p {
+	margin: 0px 0px 0px 0px;
+	padding: 5px 30px 15px 0px;
+}
+
+div.profile {
+	margin-bottom:20px;
+}
+
+/* ---- HEADINGS ---- */
+
+h1 {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 30px 20px 0px;
+
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	
+	clear: both;
+}
+
+h2 {
+	padding: 0px 0px 0px 0px;
+	margin: 30px 30px 20px 0px;
+
+	text-align: left;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+/* ---- IMAGES ---- */
+
+img {
+	padding: 0px 0px 0px 0px;
+	margin: 0px auto 0px auto;
+	
+	vertical-align: bottom; /* Needed to remove white line in IE. */
+	
+	position: relative;
+	
+	border-width: 0px;
+}
+
+div.photo {
+	padding: 5px;
+}
+
+div.photo div {
+	color: #FFFFFF;
+	font-size: 0.9em;
+	font-weight: bold;
+	background-color: #87CEEB;
+}
+
+div.photo img {
+	margin: 1px;
+}
+
+div.floatedphoto {
+	clear: both;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+/* ---- LINKS ---- */
+
+a {
+	color: #F331C3;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a img {
+	border: none;
+}
